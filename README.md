@@ -11,8 +11,8 @@ Die Skripte dienen der Automatisierung wiederkehrender Aufgaben und der Vereinfa
 ```
 .
 ├── powershell/
-│   ├── pull-repo.ps1
-│   └── push-repo.ps1
+│   ├── gitPull.ps1
+│   └── gitPush.ps1
 ├── bash/
 │   ├── pull-repo.sh
 │   └── push-repo.sh
@@ -31,7 +31,7 @@ Die Skripte dienen der Automatisierung wiederkehrender Aufgaben und der Vereinfa
 
 2. Navigiere in das Verzeichnis:
    ```
-   cd skripte-repo
+   cd Skripte
    ```
 
 3. Erstelle nach der untenstehenden Anleitung ein `.env` File.
@@ -53,24 +53,24 @@ REPO_PATH_LIN=
 
 Um ein Repository zu pullen:
 ```powershell
-./powershell/pull-repo.ps1
+./powershell/gitPull.ps1
 ```
 
 Um ein Repository zu pushen:
 ```powershell
-./powershell/push-repo.ps1
+./powershell/gitPush.ps1
 ```
 
 ### Bash Git-Skripte
 
 Um ein Repository zu pullen:
 ```bash
-./bash/pull-repo.sh
+./bash/gitPull.sh
 ```
 
 Um ein Repository zu pushen:
 ```bash
-./bash/push-repo.sh
+./bash/gitPush.sh
 ```
 ## .gitignore
 
