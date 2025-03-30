@@ -14,8 +14,8 @@ Die Skripte dienen der Automatisierung wiederkehrender Aufgaben und der Vereinfa
 │   ├── gitPull.ps1
 │   └── gitPush.ps1
 ├── bash/
-│   ├── pull-repo.sh
-│   └── push-repo.sh
+│   ├── gitPull.sh
+│   └── gitPush.sh
 ├── .gitignore
 ├── .env
 ├── README.md
