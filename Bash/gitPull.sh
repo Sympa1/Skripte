@@ -6,10 +6,6 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 ENV_PATH="$SCRIPT_DIR/../.env"
 REPO_PATH="."
 
-# Debugging ausgeben
-echo "Skript-Verzeichnis: $SCRIPT_DIR"
-echo "Env-Pfad: $ENV_PATH"
-
 if [ -f "$ENV_PATH" ]; then
     # Zeige den Inhalt der .env-Datei für Debugging
     echo "Inhalt der .env-Datei:"
