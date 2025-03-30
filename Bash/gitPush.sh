@@ -3,7 +3,7 @@
 
 # Einlesen der .env Datei
 SCRIPT_VERZEICHNIS="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-ENV_PATH="$SCRIPT_VERZEICHNIS/../.env"
+ENV_PFAD="$SCRIPT_VERZEICHNIS/../.env"
 REPO_PFAD="."
 
 if [ -f "$ENV_PFAD" ]; then

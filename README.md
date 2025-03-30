@@ -10,16 +10,16 @@ Die Skripte dienen der Automatisierung wiederkehrender Aufgaben und der Vereinfa
 
 ```
 .
-├── powershell/
-│   ├── gitPull.ps1
-│   └── gitPush.ps1
 ├── bash/
 │   ├── gitPull.sh
 │   └── gitPush.sh
+├── powershell/
+│   ├── gitPull.ps1
+│   └── gitPush.ps1
 ├── .gitignore
 ├── .env
-├── README.md
-└── LICENSE
+├── LICENSE
+└── README.md
 ```
 
 ## Installation
@@ -43,8 +43,8 @@ Die Skripte verwenden `.env`-Dateien, um Pfade und andere Konfigurationen zu spe
 Beispiel für eine `.env`-Datei für Git-Skripte:
 ```
 # Repository-Pfad
-REPO_PATH_WIN=C:/Pfad/zum/Repository
-REPO_PATH_LIN=
+REPO_PFAD_WIN=C:/Pfad/zum/Repository
+REPO_PFAD_LIN="/home/user/"
 ```
 
 ## Verwendung
@@ -53,24 +53,24 @@ REPO_PATH_LIN=
 
 Um ein Repository zu pullen:
 ```powershell
-./powershell/gitPull.ps1
+./PowerShell/gitPull.ps1
 ```
 
 Um ein Repository zu pushen:
 ```powershell
-./powershell/gitPush.ps1
+./PowerShell/gitPush.ps1
 ```
 
 ### Bash Git-Skripte
 
 Um ein Repository zu pullen:
 ```bash
-./bash/gitPull.sh
+./Bash/gitPull.sh
 ```
 
 Um ein Repository zu pushen:
 ```bash
-./bash/gitPush.sh
+./Bash/gitPush.sh
 ```
 ## .gitignore
 
